@@ -16,7 +16,8 @@ Falls man die Klasse in einem anderen Package erstellt, muesste das Interface pu
 
 # Was ist der Vorteil einer separaten Test-Klasse?
 
--Man trennt Logik von den Tests.  -Beugt Fehler vor, wenn in der selben Klasse Abhaengigkeiten auftreten koennen.
+-Man trennt Logik von den Tests.  \
+-Beugt Fehler vor, wenn in der selben Klasse Abhaengigkeiten auftreten koennen.
 
 # Was ist bei einem Blackbox-Test der Sinn von Äquivalenzklassen?
 
