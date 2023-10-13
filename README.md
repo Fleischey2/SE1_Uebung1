@@ -7,7 +7,11 @@ Man erstellt eine weitere Klasse, welche eine “static” Methode besitzt, die 
  
 # In welchem Package sollte diese zusätzliche Klasse liegen?  
 
-Diese Klasse sollte in demselben Package liegen wie die Translator-Klassen.    
+Diese Klasse sollte in demselben Package liegen wie die Translator-Klassen.   
+
+# Welches Entwurfsmuster (engl.: design pattern) könnte für die Problematik der Objekt-Erzeugung verwendet werden? Was ist der software-technische Nutzen bei der Verwendung des Entwurfsmusters?
+
+Für das Problem sollte das Factory Entwurfsmuster verwendet werden, da dieses die Wartung durch ausgelagerte Objekt-Erstellung erleichtert. Außerdem ist dieses Muster effizient darin den Code zu erweitern und es leserlich zu halten.
 
 
 # Wie muss man den Source Code des Interface ggf. anpassen, um mögliche auftretende Kompilierfehler zu beseitigen?  
@@ -25,4 +29,5 @@ Falls man die Klasse in einem anderen Package erstellt, muesste das Interface pu
 
 # Warum ist ein Blackbox-Test mit JUnit auf der Klasse Client nicht unmittelbar durchführbar?  
 
--
+Die Methode "display" in der Klasse Client besitzt keinen Rückgabewert, weswegen man \
+auch nichts unmittelbar vergleichen kann.  
